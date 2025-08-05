@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.fredoka-font {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+
+}
+
+.press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cherry-bomb-one-regular {
+  font-family: "Cherry Bomb One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.jersey-25-regular {
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hero {
+    
+    background-image: url("./assets/bg.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.about {
+    
+    background-image: url("./assets/about-bg.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-hover {
+    
+    background-image: url("./assets/bg-hover.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* 
+.hero {
+  transition: background 0.5s, filter 0.5s;
+}
+ */
+
+ .hero,
+.about {
+  transition: opacity 1s ease-in-out;
+  opacity: 1;
+}
+
